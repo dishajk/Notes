@@ -13,13 +13,21 @@ Once you have the software and have unpacked it, cd to the directory, e.g. in my
 
 ```
 cd /Download/<install-tl-somenumbers>
-perl install-tl
+sudo perl install-tl
 ```
 
-if you click i, TL is installed with the default options. In the submenus, one can instead select the specific packages one wants to install. The TL scheme menu is set to *full scheme (everything)* by default. It is advisable to install the *basic scheme(plain and latex)* only. For example most of us do not need the support that TL provides for various languages. The choice can be further refined using the *collections* menu. tlmgr can be used to install, extra packages as you go about using TL.
+if you click i, TL is installed with the default options. In the submenus, one can instead select the specific packages one wants to install. The TL scheme menu is set to *full scheme (everything)* by default. It is advisable to install the *basic scheme(plain and latex)* only. For example most of us do not need the support that TL provides for various languages.
+
+To choose the scheme `S`
+
+The choice can be further refined using the *collections* menu. 
+
+To choose collections `C`
+
+tlmgr can be used to install extra packages as you go about using TL.
 
 
-In the *Options customization*, creating symlinks is unselect by default, select this, this avoids having to manually add PATH to the directories.
+In the *Options customization*, creating symlinks is unselect by default, selecting this avoids having to manually add PATH to the directories.
 
 
 click `i`
@@ -29,14 +37,15 @@ If you did not click to add symlinks during the installation, do so manually by 
 
 
 ```
-vim ~/.profile
 PATH=/usr/local/texlive/2020/bin/x86_64-linux:$PATH; export PATH
 MANPATH=/usr/local/texlive/2020/texmf-dist/doc/man:$MANPATH; export MANPATH
 INFOPATH=/usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH; export INFOPATH
 ```
 
-Test the installation
-`tex --version` should give you information about the TL installed in your system, if it does not, there is a problem with the PATH defined for the user.
+####Test the installation
+
+
+`tex --version` should give you information about the TL installed in your system. If it does not, there is a problem with the PATH defined for the user. You may have to add the PATH to your `~/.bashrc` file
 
 
 `latex sample2e.tex` should generate a log file
