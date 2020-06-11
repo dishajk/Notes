@@ -40,8 +40,11 @@ Test the installation
 
 
 `latex sample2e.tex` should generate a log file
+
 `xdvi sample2e.dvi` can be used to preview the file generated
+
 `dvips sample2e.dvi -o sample2e.ps` is for generating a ps file for printing
+
 `pdflatex sample2e.tex` generates the pdf file
 
 
@@ -54,9 +57,13 @@ If and when you get an error `blabla.cls not found` or `blabla.sty not found`, b
 
 
 check whether the package is installed
+
 `tlmgr show blabla`
+
 if it says, installed:no
+
 `tlmgr install blabla`
+
 You may also have to update tlmgr, `tlmgr update self`
 
 
