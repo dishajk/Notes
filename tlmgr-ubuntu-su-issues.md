@@ -1,4 +1,4 @@
-1. While installing TeXLive from the 'website', elected to create symlinks in standard directories, this is not checked by default. In case you did not do it, like me, you will have to add symbolic paths.
+1. While installing TeXLive from the 'website', select to create symlinks in standard directories, this is not checked by default. In case you did not do it, like me, you will have to add symbolic paths.
 2. I was able to access tlmgr as a normal user but not as root
 3. tlmgr has to be accessed as su to install classes
 4. The problem can be resolved like following as described [here](https://github.com/scottkosty/install-tl-ubuntu/issues/13)
