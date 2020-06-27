@@ -16,6 +16,8 @@
 
 `git checkout <branchab>` takes you to branchab
 
+`git checkout <######>` where ###### are the first 6 characters from a commit log, takes to back to the time that commit was made
+
 `git merge <branchxx>` merges content from branchxx to your current branch
 
 `git log` branch specific, shows commit log
