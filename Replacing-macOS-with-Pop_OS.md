@@ -27,6 +27,7 @@ Follow the instructions on patjak's [FacetimeHD linux driver](https://github.com
 ### Software you may install from Pop!_Shop
 
 1. Skype
+2. VLC Media Player
 
 ***
 
