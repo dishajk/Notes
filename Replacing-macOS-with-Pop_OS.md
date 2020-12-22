@@ -1,6 +1,7 @@
 ### To-Do before replacing macOS
 
-Scroll down and read the cons of replacing macOS with any other OS. Download macOS, create a bootable installer for macOS. You will need this later to do firmware updates. [Instructions](https://support.apple.com/en-us/HT201372)
+1. Scroll down and read the cons of replacing macOS with any other OS. 
+2. Download macOS, create a bootable installer for macOS. You will need this later to do firmware updates. [Instructions](https://support.apple.com/en-us/HT201372)
 
 ### Replacing macOS with [Pop!_OS](https://pop.system76.com/)
 
