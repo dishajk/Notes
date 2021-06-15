@@ -33,7 +33,7 @@ In the *Options customization*, creating symlinks is unselect by default, select
 click `i`
 
 
-If you did not click to add symlinks during the installation, do so manually by adding the following lines to `/.profile`
+If you did not click to add symlinks during the installation, do so manually by adding the following lines to `~/.profile`
 
 
 ```
