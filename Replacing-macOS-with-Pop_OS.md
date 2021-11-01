@@ -24,6 +24,12 @@ Follow the instructions on patjak's [FacetimeHD linux driver](https://github.com
 
 ***
 
+### Battery life
+
+[tlp](https://linrunner.de/tlp/)
+
+***
+
 ### Software you may install from Pop!_Shop
 
 1. Skype
