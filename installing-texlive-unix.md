@@ -53,7 +53,7 @@ MANPATH=/usr/local/texlive/2020/texmf-dist/doc/man:$MANPATH; export MANPATH
 INFOPATH=/usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH; export INFOPATH
 ```
 
-####Test the installation####
+#### Test the installation ####
 
 
 `tex --version` should give you information about the TL installed in your system. If it does not, there is a problem with the PATH defined for the user. You may have to add the PATH to your `~/.bashrc` file

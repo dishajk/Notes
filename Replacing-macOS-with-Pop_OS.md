@@ -2,6 +2,7 @@
 
 1. Scroll down and read the cons of replacing macOS with any other OS. 
 2. Download macOS, create a bootable installer for macOS. You will need this later to do firmware updates. [Instructions](https://support.apple.com/en-us/HT201372)
+3. If your system is of 2018 or later, [read](https://wiki.t2linux.org/)
 
 ### Replacing macOS with [Pop!_OS](https://pop.system76.com/)
 
@@ -21,6 +22,14 @@ First things first. [Instructions](https://askubuntu.com/a/60395)
 ### Camera
 
 Follow the instructions on patjak's [FacetimeHD linux driver](https://github.com/patjak/bcwc_pcie/wiki)
+
+***
+
+### Battery life
+
+[tlp](https://linrunner.de/tlp/)
+
+[powertop](https://01.org/powertop)
 
 ***
 
