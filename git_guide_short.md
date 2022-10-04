@@ -10,6 +10,8 @@
 
 ### Branches
 
+`git branch` to list all the local branches
+
 `git checkout` for switching branches
 
 `git checkout -b <branchnew>` creates a new branch called branchnew
