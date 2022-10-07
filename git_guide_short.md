@@ -24,6 +24,8 @@
 
 `git status` for status of the work in local
 
+`git branch -d branchname` for deleting a branch
+ 
 ### Forking
 
 Use the **Fork** button on GitHub to copy another user's repository to your GitHub. Clone the repository to local and go about usual business of `add`ing, `commit`ing and `push`ing to make changes to your copy of the repository.
