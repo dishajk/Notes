@@ -2,7 +2,7 @@
 
 ## Lectures
 
-Lectures are sorted into *Next*, *Upcoming* and *Past*. For making changes, edit
+Lectures are automatically sorted into *Next*, *Upcoming* and *Past*. For making changes, edit
 ```
 /imsc60/html/pages/lectureData.json
 ```
@@ -16,10 +16,11 @@ and update the following information.
 "abstract":"abstract of the talk",
 "dateTime":"yyyy-mm-dd hh:mm"
 "time": "hh:mm - hh:mm",
-"zoom": null				//change the value to 1 if the talk is happening offline
-"youtubeLink": "livestream url"		//if zoom, then provide a link to matsciencechannel
+"zoom": null,
+"youtubeLink": "livestream url"
 }
 ```
+If the talk is happening over zoom use `"zoom": 1` and provide a link to matsciencechannel for `"youtubeLink"`
 
 ## Gallery
 
